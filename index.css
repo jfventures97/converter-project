@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    background-color: black;
+    text-align: center;
+}
+
+#container-top { 
+    background-color: #6943FF;
+    color: white;
+    height: 285px;
+    width: 550px;
+    overflow: auto;
+    padding-bottom: 15px;
+}
+
+#container-bottom {
+    background-color: white;
+    height: 444px;
+    width: 550px;
+}
+
+button {
+    background-color: white;
+    color: #3D3D3D;
+    height: 42px;
+    width: 117px;
+    display: flex;
+    margin: 15px auto 0 auto;
+    text-align: center;
+}
+
+#main-container {
+    height: 729px;
+    width: 550px;
+    margin: 126px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    margin-top : 33px;
+}
+
+#numberinput {
+    width: 117px;
+    height: 83px;
+    border: 2px solid #B295FF;
+    background-color: #6943FF;
+    border-radius: 7px;
+    font-size: 58px;
+    text-align: center;
+
+}
