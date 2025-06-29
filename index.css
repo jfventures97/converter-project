@@ -2,6 +2,13 @@ body {
     margin: 0;
     background-color: black;
     text-align: center;
+    font-family: "Inter", sans-serif;
+}
+
+#numberinput::-webkit-outer-spin-button,
+#numberinput::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }
 
 #container-top { 
@@ -14,7 +21,7 @@ body {
 }
 
 #container-bottom {
-    background-color: white;
+    background-color: #F4F4F4;
     height: 444px;
     width: 550px;
 }
@@ -25,8 +32,13 @@ button {
     height: 42px;
     width: 117px;
     display: flex;
-    margin: 15px auto 0 auto;
+    margin: 30px auto 0 auto;
     text-align: center;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    border: 0;
+    font-size: 16px;
 }
 
 #main-container {
@@ -39,6 +51,7 @@ button {
 
 h1 {
     margin-top : 33px;
+    font-size: 28px;
 }
 
 #numberinput {
@@ -49,5 +62,32 @@ h1 {
     border-radius: 7px;
     font-size: 58px;
     text-align: center;
+    color: white;
+    font-weight: bolder;
+    margin-top: 15px;
+    
+  -moz-appearance: textfield;
+    
+}
+
+.smallcontainer {
+    width: 500px;
+    height: 108.57px;
+    color: #5A537B;
+    background-color: white;
+    margin: 20px auto;
+    padding-top : 5px;
+
 
 }
+
+h3 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+p {
+    font-size: 14px;
+    font-weight: 400;
+}
+
